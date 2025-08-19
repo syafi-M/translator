@@ -2,6 +2,9 @@
   "name": "translator-api",
   "version": "1.0.0",
   "type": "module",
+  "scripts": {
+    "start": "node api/translate.js"
+  },
   "dependencies": {
     "@vitalets/google-translate-api": "^9.2.1",
     "body-parser": "^2.2.0",
